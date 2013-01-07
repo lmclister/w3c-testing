@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>Getting set up to contribute</title>
+
+</head>
+<body>
+<h2>Perceived Problem Areas for people new W3C test development and Possible Solutions </h2>
+
+<p><strong>Note:</strong> <em>Many of the possible solutions below would benefit testing efforts in general, not just newcomers.</em></p>
+
+<hr />
+
+<h3>Getting set up to contribute</h3>
+
+<hr />
+
+<h5>Difficulties</h5>
+
+<ol>
+<li><p>Most newcomers don't have Mercurial set up and configured.  It is difficult and time consuming to set up so it is a barrier to entry.</p></li>
+<li><p>If you have never used Mercurial, it is confusing. "What is the HG equivalent of git fetch?" was a frequent question at TestTWF SF.</p></li>
+<li><p>WGs have different test repo locations, different rules for gaining access to source control (I beleive some require you to be a WG member) and it can take some time to get access to a repo.</p></li>
+</ol>
+
+
+<h5>Possible Solutions</h5>
+
+<ol>
+<li><p>For test source control, consider using a system that has little to no barrier to entry for new comers.  This could possibly be a popular source control system like git or maybe it is some sort of web app that makes the process dead simple to contribute and track tests and test status.  Maybe some combination of both.</p></li>
+<li><p>Standardize test repo locations and/or document repo locations, owners &amp; access policies in one central place that people can easily locate that information.</p></li>
+<li><p>Provide information for newcomers on how to get set up.  Presentation, articles, videos, etc.  Put it in a central location.</p></li>
+</ol>
+
+
+<hr />
+
+<h3>Understanding specs</h3>
+
+<hr />
+
+<h5>Difficulties</h5>
+
+<ol>
+<li><p>Specs are hard to read / digest for new comers and in order to make worthwhile tests, you need to understand the spec.</p></li>
+<li><p>Not really any documentation on W3C and/or web docs sites about how to read a spec.</p></li>
+<li><p>Normative language must be learned.  Also, not all specs / WGs use normative language.</p></li>
+</ol>
+
+
+<h5>Possible Solutions</h5>
+
+<ol>
+<li><p>In a central place, provide information for newcomers on how to read and digest specs.  Presentation, articles, videos, etc.</p></li>
+<li><p>Provide information on normative language as part of the above mentioned content. (probably goes w/o saying)</p></li>
+<li><p>?</p></li>
+</ol>
+
+
+<hr />
+
+<h3>Getting started with test development</h3>
+
+<hr />
+
+<h5>Difficulties</h5>
+
+<ol>
+<li><p>It is unclear where &amp; how one can get started.</p></li>
+<li><p>Not m(any) sample tests.</p></li>
+<li><p>No clear indication of what tests have been written or need to be written for a particular spec.</p></li>
+<li><p>Not always clear on where to go for help.</p></li>
+</ol>
+
+
+<h5>Possible Solutions</h5>
+
+<ol>
+<li><p>In a central place, have a detailed description of how the tests/test harnesses work and provide walkthroughs for creating various types of tests.</p></li>
+<li><p>Provide an easy to find list of specs/WGs that need/want help developing tests.  Each spec in the list would have assigned test development contacts/leads.</p></li>
+<li><p>Provide sample tests per spec and have them in the test repo.</p></li>
+<li><p><a href="gs1"></a>For all specs, add test widgets, per a section<a href="http://dev.w3.org/csswg/css3-transforms/">[1]</a> that indicate which tests have been written and which tests are passing/failing per platform.</p></li>
+<li><p><a href="gs2"></a>Spec editors / test contributors outline what tests need to be written for each spec section.  The list is then somehow mapped to the test repo and the spec widgets (see above) are updated so that they reflect what tests need to be written, what tests have been written and if the list of required tests is incomplete, complete or not defined.</p></li>
+<li><p>Move to test driven spec development.</p></li>
+<li><p>Get experts in an irc.w3c.org channel, hangout or otherwise and centrally document how to use it so that newcomers and experienced testers can ask questions.</p></li>
+<li><p>Hold virtual <a href="http://www.testthewebforward.org">Test the Web Forward</a> events to onboard new test developers.</p></li>
+</ol>
+
+
+<hr />
+
+<h3>Getting tests submitted &amp; approved and related to specs</h3>
+
+<hr />
+
+<h5>Difficulties</h5>
+
+<ol>
+<li>Not always clear where to submit</li>
+<li>OK, so now that I submitted my test(s), when will it be approved?</li>
+<li>Need a more efficient way to track the review process.</li>
+<li>Only the CSS WG has a test tracking system (AFAIK)</li>
+<li>There are any clearly documented guidelines/requirements for reviewing a test.</li>
+<li>It is unclear how one becomes a reviewer.</li>
+<li>Specs do not contain references to or results of tests.</li>
+<li>I only have one UA and my test was not approved because it is not suitable for a UA that is not available to me.</li>
+</ol>
+
+
+<h5>Possible Solutions</h5>
+
+<ol>
+<li>Document WG repo info and contacts (as mentioned above)</li>
+<li>Create or buy a central test suite/case managment system or scale/reuse sheperd<a href="http://test.csswg.org/shepherd/">[3]</a> so that tests can easily be tracked.</li>
+<li>Use issue tracking in git, code collaborator or something else to do/track reviews rather than email.</li>
+<li>Centrally document requirements and guidelinse for tests (part of the 'getting started' docs above), so reviewers are more efficient.</li>
+<li>In one place, have WGs publish requirements for being a reviewer.</li>
+<li>Embed test info into spec sections (see <a href="#gs1">4</a> &amp; <a href="#gs2">5</a> above).</li>
+<li>Hold (virtual) <a href="http://www.testthewebforward.org">Test the Web Forward</a> events that focus on getting tests reviewed for specific specs.</li>
+<li>Leverage open device labs to broaden coverage <a href="http://lab-up.org/">http://lab-up.org/</a>.</li>
+</ol>
+
+
+<hr />
+
+<h3>References</h3>
+
+<hr />
+
+<ul>
+<li>[1] <a id="ref1"></a><a href="http://dev.w3.org/csswg/css3-transforms/">http://dev.w3.org/csswg/css3-transforms/</a></li>
+<li>[2] <a id="ref2"></a><a href="http://lab-up.org/">http://lab-up.org/</a></li>
+<li>[3] <a href="ref3"></a><a href="http://test.csswg.org/shepherd/">http://test.csswg.org/shepherd/</a></li>
+</ul>
+
+</body>
+</html>
