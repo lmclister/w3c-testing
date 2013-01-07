@@ -12,7 +12,9 @@ Perceived Problem Areas for people new W3C test development and Possible Solutio
 
 2. If you have never used Mercurial, it is confusing. "What is the HG equivalent of git fetch?" was a frequent question at TestTWF SF.
 
-3. WGs have different test repo locations, different rules for gaining access to source control (I beleive some require you to be a WG member) and it can take some time to get access to a repo.
+3. WGs have different test repo locations, different rules for gaining access (specifiaclly write access) to source control (I beleive some require you to be a WG member) and it can take some time to get access to a repo.
+
+4. In addition to Mecurial access, one must create a W3C account & sign the license agreement.
 
 ##### Possible Solutions ######
 
@@ -21,13 +23,14 @@ Perceived Problem Areas for people new W3C test development and Possible Solutio
 2. Standardize test repo locations and/or document repo locations, owners & access policies in one central place that people can easily locate that information.
 
 3. Provide information for newcomers on how to get set up.  Presentation, articles, videos, etc.  Put it in a central location.
+4. Move tests repos to GitHub ([as the HTML WG has done](https://twitter.com/robinberjon/status/281751093220896768?uid=482516382&iid))
 
 ***
 ### Understanding specs ###
 ***
 ##### Difficulties #####
 
-1. Specs are hard to read / digest for new comers and in order to make worthwhile tests, you need to understand the spec.
+1. Specs are hard to read / digest for newcomers and in order to make worthwhile tests, you need to understand the spec.
 
 2. Not really any documentation on W3C and/or web docs sites about how to read a spec.
 
