@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>We need more tests</title>
+
+</head>
+<body>
+<h2>We need more tests</h2>
+
+<ul>
+<li>In order to move specs forward.</li>
+<li>To avoid fragmentation / interop issues</li>
+</ul>
+
+
+<h2>To get more tests, we need more contributors</h2>
+
+<ul>
+<li>We should continue to crowd source testing via events like TestTWF and expand to add smaller, more focussed events.</li>
+<li>The goal of these events should be not just to develop tests at a singe event but to build a new community of contributors that continue to contribute tests and throw their own events.</li>
+<li>We can also get more contributors by hiring contractors.</li>
+</ul>
+
+
+<h2>New contributors will need to be supported in order to be successful</h2>
+
+<p><strong>Current Situation:</strong></p>
+
+<ul>
+<li><p>It is hard for individual developers to get involved in the process:</p></li>
+<li><p>Documentation is not consolidated and may be stale, is likely different per WG and in some cases may not even exist.</p></li>
+<li><p>It takes new people (individuals, contractors or otherwise) some time to get set up:</p></li>
+<li>Setting up HG is non trivial for some and for many it is different than the tools they are used to using, so it may take some time to learn.</li>
+<li><p>It is sometimes unclear who to contact for access</p></li>
+<li><p>Specs are hard to read / digest for newcomers and in order to make worthwhile tests, you need to understand the spec.  No W3C docs on how to read a spec.</p></li>
+<li><p>Not all specs use normative language.</p></li>
+<li><p>It is unclear on where &amp; how an individual can get started</p></li>
+<li>Not (m)any sample test</li>
+<li><p>No clear indication of what tests have been written or need to be written for a particular spec.</p></li>
+<li><p>There isn't much of a support structure for new people.</p></li>
+<li><p>Once tests are submitted, the submitter has not idea when they will be reviewed &amp; approved.</p></li>
+<li><p>Unreviewed/Approved test contributions do not necessarily help.</p></li>
+<li><p>Individuals are not motivated to contribute more because there is no impact, reward or credit.</p></li>
+</ul>
+
+
+<p><strong>What would help:</strong>
+- Infrastructure and documentation that will make the barrier to contributing very low.</p>
+
+<ul>
+<li><p>There needs to be a clear place or places to get support and we need responders.</p></li>
+<li><p>More normative language in specs.</p></li>
+<li><p>Somehow list out tests that ned to be written for a given spec.</p></li>
+<li><p>Set expectations on turnaround time of test reviews and minimize that time as much as possible.</p></li>
+<li><p>Train more reviewers and provide a clear paths &amp; requirements on how to become a reviewer.</p></li>
+<li><p>Provide some sort of carrot for new contributors. Something that gives them a stake in test contribution and a reward for contributing.</p></li>
+</ul>
+
+</body>
+</html>
