@@ -1095,27 +1095,7 @@ html {
 h3.high {
 	top: -2em;
 }
-.container .state-background, .container {
-	background: url(../assets/Container_01_KMJ.png) center center no-repeat;
-	background-size: auto;
-	opacity: 1;
-}
-.old-railroad .state-background {
-	background: url(../assets/il_fullxfull.316429267.jpeg) #eee center center no-repeat;
-	background-size: cover;
-	opacity: 1;
-}
 
-.new-railroad .state-background {
-	background: url(../assets/img_9425.jpeg) #eee center center no-repeat;
-	background-size: cover;
-	opacity: 1;
-}
-.telegraph .state-background {
-	background: url(../assets/morse_telegraph.jpeg) #eee center center;
-	background-size: auto;
-	opacity: 1;
-}
 
 .home-page .state-background {
 	background: url(../assets/ramp1.jpg) #eee center center;
@@ -1137,11 +1117,6 @@ h3.high {
 
 .community .state-background {
 	background: url(../assets/pitchfork.jpeg) #eee center center;
-	background-size: cover;
-	opacity: 1;
-}
-.support .state-background {
-	background: url(../assets/bridgesupport.jpg) #eee center center;
 	background-size: cover;
 	opacity: 1;
 }
@@ -1199,15 +1174,12 @@ h3.high {
 	opacity: 1;
 }
 
-.tape-measure .state-background {
-	background: url(../assets/Tape_measure_colored.jpeg) #eee center center;
+.support .state-background {
+	background: url(../assets/bridgesupport.jpg) #eee center center;
 	background-size: cover;
 	opacity: 1;
 }
-img.telegraph {
-	box-shadow: 8px 8px 8px rgba(0,0,0,0.5),  2px 2px 3px rgba(200,200,170,1); 
 
-}
 @-webkit-keyframes pan-around {
 	0% {
 		background-position: 0%, 0%;
