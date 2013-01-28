@@ -1170,6 +1170,35 @@ h3.high {
 	opacity: 1;
 }
 
+.support-noobs1 .state-background {
+	background: url(../assets/wheel1.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.support-noobs2 .state-background {
+	background: url(../assets/wheel3.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.support-noobs3 .state-background {
+	background: url(../assets/wheel4.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+.support-noobs4 .state-background {
+	background: url(../assets/wheel5.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.support-noobs5 .state-background {
+	background: url(../assets/ramp4.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
 .tape-measure .state-background {
 	background: url(../assets/Tape_measure_colored.jpeg) #eee center center;
 	background-size: cover;
