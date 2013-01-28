@@ -1152,6 +1152,24 @@ h3.high {
 	opacity: 1;
 }
 
+.barriers2 .state-background {
+	background: url(../assets/jersey2.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.barriers3 .state-background {
+	background: url(../assets/jersey3.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.barriers4 .state-background {
+	background: url(../assets/jersey4.jpg) #eee center center;
+	background-size: cover;
+	opacity: 1;
+}
+
 .tape-measure .state-background {
 	background: url(../assets/Tape_measure_colored.jpeg) #eee center center;
 	background-size: cover;
